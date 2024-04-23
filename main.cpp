@@ -14,7 +14,7 @@
 * - Add win animations. (Shine sprites, write jackpot, etc.)
 * - Auto Spin?
 * - Bigger coin space.
-* - Auto Spin Button 130x36 veya 100x36 tam hatýrlamýyorum. Koordinat (257, 580)
+* - Auto Spin Button 130x36 veya 100x36 tam hatÃ½rlamÃ½yorum. Koordinat (257, 580)
 */
 
 int main()
@@ -239,29 +239,7 @@ int main()
                             slotMachine.maxBet();
                         }
                     }
-
-                    // Auto Spin Action
-                    bool clicked = false;
-                    if (slotMachine.getAutoSpinSprite().getGlobalBounds().contains(translated_pos)) {
-                        if (event.mouseButton.button == sf::Mouse::Left) {
-                            slotMachine.setAutoSpinCondition(true);
-                            while (slotMachine.getAutoSpinCondition()) { 
-                                slotMachine.spin(window);
-                                // Declaring Cursor Location Agin for Auto Spin
-                                auto mouse_pos = sf::Mouse::getPosition(window);
-                                auto translated_pos = window.mapPixelToCoords(mouse_pos);
-                                if (slotMachine.getSpinningSprite().getGlobalBounds().contains(translated_pos)) {
-                                    if (event.mouseButton.button == sf::Mouse::Right) {
-                                        std::cout << "Clicked" << std::endl;
-                                        slotMachine.setAutoSpinCondition(false);
-                                    }
-                                }
-                                std::this_thread::sleep_for(std::chrono::milliseconds(500));
-							}
-						}
-					}
-
-                }
+		}
 
                 if (event.type == sf::Event::KeyPressed)
                 {
