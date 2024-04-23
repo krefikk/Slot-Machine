@@ -5,7 +5,7 @@ A 5x3 slot machine designed with C++ and SFML. Has the theoretical RTP of 97.96%
 Visual C libraries should be enough.
 
 # Usage
-Choose a bet using up and down arrow keys. Minimum bet is 25, while there is maximum bet limit.
+Choose a bet using up and down arrow keys. Minimum bet is 25, while there is no maximum bet limit.
 Press spin button for spin.
 Press i button for information about game.
 Press settings button for change the music volume.
