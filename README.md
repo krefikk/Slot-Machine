@@ -13,6 +13,10 @@ Press settings button for change the music volume.<br>
 # How to Download and Play
 Click Releases button on the right side of screen. Download the zip, extract it in a folder and execute Slot Machine.exe
 
+# Images
+![Main Screen](https://i.hizliresim.com/g0s1gyt.PNG)<br>
+![Settings](https://i.hizliresim.com/1umx94d.PNG)
+
 # Contributing
 Pull requests are always welcome.
 
