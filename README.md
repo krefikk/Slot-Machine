@@ -14,8 +14,8 @@ Press settings button for change the music volume.<br>
 Click Releases button on the right side of screen. Download the zip, extract it in a folder and execute Slot Machine.exe
 
 # Images
-![Main Screen](https://i.hizliresim.com/g0s1gyt.PNG)<br>
-![Settings](https://i.hizliresim.com/1umx94d.PNG)
+![Main Screen](https://github.com/krefikk/Slot-Machine/blob/main/assets/images/mainscreen.jpeg)<br>
+![Settings](https://github.com/krefikk/Slot-Machine/blob/main/assets/images/settings.jpeg)
 
 # Contributing
 Pull requests are always welcome.
